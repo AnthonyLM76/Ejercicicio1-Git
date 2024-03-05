@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <meta hhtp-equip="refresh" content="60">
+        <meta charset="UTF-8">
+        <meta name="author" content="Anthony Lastra">
+        <meta name="description" content="Formulario">
+        <meta name="keywords" content="Formulario">
+        <title>Actividad 10</title>
+    </head>
+    <body>
+        <h1>Contratación línea telefonica</h1>
+        <form method="post" target="_blank">
+            <fieldset>
+                <legend>Datos de Usuario:</legend>
+                <label for="usuario">Introducta un nombre de usuario</label>
+                <br>
+                <input type="text" placeholder="Escribe un usuario" id="usuario" required>
+                <br>
+                <label for="Contraseña">Introducta su dirección</label>
+                <br>
+                <input type="text" placeholder="Escribe una dirección" required id="dirección">
+                <br>
+                <label for="Cuenta bancaria">Introducca su cuenta bancaria</label>
+                <br>
+                <input type="text" required id="Cuenta Bancaria" placeholder="Escriba su cuenta bancaria">
+            </fieldset>
+            <fieldset>
+                 <legend>Seleccione su Tarifa</legend>
+                 <input type="text" list="Tarifa" placeholder="Seleccione una tarifa" required>
+                 <datalist id="Tarifa">
+                    <option>Tarifa Joven</option>
+                    <option>Tarifa Sénior</option>
+                    <option>Tarifa Plana Superior</option>
+                 </datalist>
+            </fieldset>
+            <fieldset>
+                <legend>Introducca una fecha de inicio</legend>
+                <input type="date" placeholder="Introducca la fecha de inicio" required id="fecha">
+            </fieldset>
+            <fieldset>
+                <legend>Notificaciones</legend>
+                <p>
+                    Por SMS:
+                    <br>
+                    <label><input type="radio" name="PorSMS" value="Si" required>SI</label>
+                    <br>
+                    <label><input type="radio" name="PorSMS" value="No" required>No</label>
+                </p>        
+            </fieldset>
+             <input type="submit" value="Enviar">
+             <input type="reset" value="Reiniciar">
+        </form>
+    </body>
+</html>
