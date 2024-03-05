@@ -1,0 +1,25 @@
+<html lang="es" dir="ltr">
+    <head>
+        <meta hhtp-equiv="refresh" content="60"> 
+        <meta charset="UTF-8">
+        <meta name="author" content="Anthony Lastra">
+        <meta name="description" content="Practica de HTML">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <title>Ejercicio 3</title>
+    </head>
+    <body>
+        <h1 style="color:blue;">Prueba de HTML</h1>
+        <p style="color: #8A2BE2">Esto solo es una prueba</p>
+        <p>Lista:</p>
+        <dl>
+            <dt>Internet:</dt>
+            <dd>Es una red mundial de computadoras y los servicios que ofrece, permiten a los usuarios comunicarse, compartir recursos y acceder a una gran cantidad de información desde cualquier parte del mundo.</dd>
+
+            <dt>WWW:</dt>
+            <dd>Son las iniciales que identifican a la expresión inglesa World Wide Web, el sistema de documentos de hipertexto que se encuentran enlazados entre sí y a los que se accede por medio de Internet.</dd>
+
+            <dt>HTML:</dt>
+            <dd>Es un lenguaje de marcado de etiquetas que se utiliza para crear y estructurar contenido en la web.</dd>
+        </dl>
+    </body>
+</html>

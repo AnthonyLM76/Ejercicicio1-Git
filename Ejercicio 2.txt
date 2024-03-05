@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta hhtp-equip="refresh" content="60">
+    <meta charset="UTF-8">
+    <meta name="author" content="Anthony Lastra">
+    <meta name="description" content="Tabla">
+    <meta name="keywords" content="Tabla">
+    <title>Actividad 8</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 700px">
+
+        <colgroup span="4" style="background-color: cornflowerblue;"></colgroup>
+        <caption>Trimestre del año</caption>
+        <thead>
+            <tr>
+                <th>1T</th>
+                <th>2T</th>
+                <th>3T</th>
+                <th>4T</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1500</td>
+                <td>3000</td>
+                <td>1800</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>800</td>
+                <td>1000</td>
+                <td>-200</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
