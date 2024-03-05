@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta hhtp-equip="refresh" content="60">
+        <meta charset="UTF-8">
+        <meta name="author" content="Anthony Lastra">
+        <meta name="description" content="Formulario">
+        <meta name="keywords" content="Formulario">
+        <title>Actividad 9</title>
+    </head>
+    <body>
+        <h1>Formulario de indentificación</h1>
+        <form action="https://www.google.es/" method="get">
+            <label for="usuario">Ingrese su usuario</label>
+            <br>
+            <input type="text" placeholder="Escribe tu usuario" id="usuario">
+            <br>
+            <label for="Contraseña">Contraseña</label>
+            <br>
+            <input type="password">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
